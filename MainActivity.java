@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
     WebView webView;
     LinearLayout layoutNoNet,ssl;
     Button btnRetry, kill;
-    String url = "https://dltsacco.co.ke/DigitalSacco/index.php?device=pdq_001";
+    String url = "https://xxxxxxxxx/xxxxxxx/index.php?device=pdq_001";
     @SuppressLint("SetJavaScriptEnabled")
     Handler handler = new Handler();
 
