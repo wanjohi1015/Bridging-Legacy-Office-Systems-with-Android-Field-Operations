@@ -93,7 +93,7 @@ public class PrintService extends Service {
     }
 
     private void fetchJobsFromServer() {
-        String url = "https://dltsacco.co.ke/DigitalSacco/get_print_jobs.php";
+        String url = "https://xxxxxxxxxxxxxxxxxxxxxxxxxxxx.php";
 
 
 
@@ -216,7 +216,7 @@ public class PrintService extends Service {
 
     // Helper to send status updates to PHP
     private void updateStatus(String id, String status) {
-        String url = "https://dltsacco.co.ke/DigitalSacco/update_status.php?id=" + id + "&status=" + status;
+        String url = "https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.php?id=" + id + "&status=" + status;
 
         StringRequest req = new StringRequest(Request.Method.GET, url,
                 response -> {
